@@ -79,7 +79,7 @@ class TournamentTest(unittest.TestCase):
         cls.all_results = {}
 
     def setUp(self):
-        # Метод, выполняемый перед каждым тестом, для准备 участников
+        # Метод, выполняемый перед каждым тестом, для участников
         self.runner1 = Runner('Усэйн', 10)  # Создаем первого участника
         self.runner2 = Runner('Андрей', 9)  # Создаем второго участника
         self.runner3 = Runner('Ник', 3)  # Создаем третьего участника
