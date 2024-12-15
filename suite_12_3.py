@@ -2,7 +2,7 @@
 # Задача "Заморозка кейсов".
 
 import unittest
-from tests_12_3 import TournamentTest  # Импортируйте ваш тестовый класс
+from tests_12_3 import TournamentTest  # Импорт тестового класса.
 
 # Создаем объект TestSuite
 class TestSuite:
